@@ -1175,6 +1175,7 @@
 .main-about {
     background-color: #818181;
     margin-bottom: 40px;
+    padding-top: 40px;
 }
 
 .main-about h1 {
@@ -1183,7 +1184,7 @@
     font-weight: 600;
     font-size: 37px;
     text-align: center;
-    margin: 90px 0 40px 0;
+    margin: 45px 0 40px 0;
     height: 11vh;
     font-family: Inter;
 }
@@ -1207,13 +1208,13 @@
 
 .caja-about {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .about img {
     width: 70%;
     border: 10px;
-    border-radius: 70px;
+    border-radius: 90px;
 }
 
 .about img:hover {
@@ -1222,13 +1223,15 @@
 
 .aboutus p {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 0 10px 0;
+    margin: 10px 20px 10px 20px;
     text-align: center;
+    font-family: Lato;
 }
 
 .about-story {
     display: block;
-    padding: 30px;
+    padding: 30px 0 10% 0;
+    margin: 0 0 -40px 0;
 }
 
 .about-story hr {
@@ -1241,6 +1244,13 @@
 .about-story h3 {
     color: #FCFF5C;
     margin-bottom: -15px;
+    font-family: Inter;
+}
+.about-story p {
+    color: #000;
+    margin: 0 10% -15px 10%;
+    text-align: justify;
+    font-family: Lato;
 }
 
 /*PÁGINA CLIENTS*/
@@ -1250,20 +1260,21 @@
 }
 .main-clients h1 {
     color: #000;
-    font-weight: 600;
-    font-size: 37px;
+    font-weight: 700;
+    font-size: 39px;
     text-align: center;
-    margin: 90px 0 40px 0;
+    margin: 64px 0 40px 0;
     font-family: Inter;
+    padding: 20px 0 0 0;
 }
 
 .cont-clients hr {
     text-align: center;
     align-items: center;
     background-color: #FCFF5C;
-    width: 20%;
+    width: 100%;
     padding-bottom: 3px;
-    margin: -63px 0 60px 40%;
+    margin: -63px 0 60px 0%;
     height: 5vh;
     border: transparent;
 }
@@ -1276,9 +1287,41 @@
 }
 
 .caja-clients img {
+    width: 50%;
+}
+.clientes1 img {
     width: 40%;
-    border: 10px;
-    border-radius: 80px;
+}
+.clientes2 img {
+    width: 45%;
+}
+.clientes3 img {
+    width: 45%;
+    margin-top: 20px;
+}
+.clientes4 img {
+    width: 60%;
+    margin: 0 0 0 -30px;
+}
+.clientes5 img {
+    width: 40%;
+    margin: 30px 0 0 0;
+}
+.clientes6 img {
+    width: 60%;
+    margin: 55px 0 0 -20px;
+}
+.clientes7 img {
+    width: 50%;
+    margin: 0 0 0 -20px;
+}
+.clientes8 img {
+    width: 80%;
+    margin: -40px 0 0 -60px;
+}
+.clientes9 img {
+    width: 70%;
+    margin: -10px 0 0 -40px;
 }
 
 .caja-clients img:hover {
@@ -1345,7 +1388,7 @@
     font-weight: 600;
     font-size: 37px;
     text-align: center;
-    margin: 90px 0 40px 0;
+    margin: 57px 0 40px 0;
     padding: 30px 0 0 0;
     font-family: Inter;
 }
@@ -1437,7 +1480,7 @@
 
 .cajitas-beach video {
     width: 100%;
-    margin: 120% 0 0 0;
+    height: 50vh;
 }
 
 /*PÁGINA CONTACT*/
@@ -1451,7 +1494,9 @@
     font-weight: 600;
     font-size: 37px;
     text-align: center;
-    margin: 90px 0 20px 0;
+    margin: 45px 0 20px 0;
+    padding: 45px 0 0 0;
+    font-family: Inter;
 }
 
 .contenedor-contact h4 {
@@ -1459,10 +1504,11 @@
     font-weight: 500;
     font-size: 18px;
     text-align: center;
+    font-family: Lato;
 }
 
 .formulario {
-    margin: 10px 0 0 50px;
+    margin: 30px 0 0 20%;
     align-items: end;
     display: block;
 }
@@ -1475,6 +1521,7 @@
     border: 3px solid #FAFBFE;
     color: #999;
     font-weight: 400;
+    font-family: Lato;
     font-size: 13px;
     outline: 0;
     height: 25vh;
@@ -1486,13 +1533,14 @@
 }
 
 .formulario button {
-    margin: 30px 0 40px 70%;
+    margin: 10px 0 40px 70%;
     padding: 12px 30px;
     border: transparent;
     background-color: #FCFF5C;
     border: 3px solid #FAFBFE;
-    font-weight: 500;
+    font-weight: 600;
     color: #818181;
+    font-family: Lato;
 }
 
 .formulario button:hover {
@@ -1509,6 +1557,7 @@
     border: 3px solid #FAFBFE;
     color: #999;
     font-weight: 400;
+    font-family: Lato;
     font-size: 15px;
     outline: 0;
 }
@@ -1521,6 +1570,7 @@
     border: 3px solid #FAFBFE;
     color: #999;
     font-weight: 400;
+    font-family: Lato;
     font-size: 15px;
     outline: 0;
 }

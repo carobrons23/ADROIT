@@ -757,7 +757,7 @@
 
 .cajita-services4 img {
     width: 100%;
-    height: 41vh;
+    height: 52vh;
 }
 
 .cajita-services4 h4 {
@@ -770,7 +770,7 @@
 
 .cajita-services4 p {
     width: 75%;
-    font-size: 15px;
+    font-size: 14px;
     text-align: unset;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -794,7 +794,7 @@
 
 .cajita-services5 p {
     width: 75%;
-    font-size: 15px;
+    font-size: 14px;
     text-align: unset;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -902,6 +902,8 @@
     color: #fff;
     text-align: center;
     padding: 15px 0 10px 0;
+    font-family: Inter;
+    font-weight: 500;
 }
 
 .footer-contain1 hr {
@@ -1043,7 +1045,7 @@
     font-size: 12px;
     border-radius: 5px;
     border: 2px solid #000;
-    margin: 10px 0 0 95px;
+    margin: 10px 0 0 75px;
     font-family: Lato;
 }
 
@@ -1082,7 +1084,7 @@
     color: #818181;
     text-align: center;
     font-size: 14px;
-    margin: 20px 0 10px 0;
+    margin: 30px 0 25px 0;
     padding: 10px;
     font-family: Lato;
 }
@@ -1111,6 +1113,56 @@
 }
 
 .cards1 button a:hover {
+    color: #fff;
+}
+.cards-pack .cards2 {
+    width: 80%;
+    height: 42vh;
+    background-color: #FCFF5C;
+    border-radius: 15px;
+}
+
+.cards2 h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards2 p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: -5px 0 0 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards2 button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 5px 0 0 80px;
+}
+
+.cards2 button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards2 button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards2 button a:hover {
     color: #fff;
 }
 
@@ -1193,7 +1245,9 @@
 
 /*PÁGINA CLIENTS*/
 
-
+.main-clients{
+    background-color: #818181;
+}
 .main-clients h1 {
     color: #000;
     font-weight: 600;

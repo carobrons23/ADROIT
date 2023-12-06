@@ -1,0 +1,1840 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #818181;
+    height: 13vh;
+}
+
+.header {
+    background-color: #818181;
+    width: 100%;
+    height: 13%;
+    margin: -90px 0 0 0;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 80px;
+    margin: 0 0 0 20px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu nav ul li a {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial;
+    margin: 0 15px 0 15px;
+}
+
+.menu nav ul li a:hover {
+    color: #FCFF5C;
+}
+
+.btn__quote {
+    display: block;
+    padding: 5px 20px;
+    border: 2px solid #818181;
+    color: #000;
+    border-radius: 8px;
+    font-size: 13px;
+    transition: all 300ms;
+    text-decoration: none;
+    width: 110px;
+    margin-right: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.btn__quote:hover {
+    color: #fff;
+    background: #818181;
+    border: 2px solid transparent;
+}
+
+.menu .socialMedia a i {
+    margin: 0 20px 0 0;
+    color: #fff;
+}
+
+.menu .socialMedia a i:hover {
+    color: #FCFF5C;
+}
+
+.menu label {
+    display: none;
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+}
+
+
+/*portada de inicio*/
+
+.container__cover {
+    width: 100%;
+}
+
+.cover {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #FCFF5C;
+}
+
+.text__cover h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    color: #000;
+    margin-top: 140px;
+    font-family: Inter;
+}
+
+.text__cover img {
+    width: 35%;
+}
+
+.btn__text {
+    display: block;
+    width: 130px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: #000;
+    font-size: 12px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+    text-decoration: none;
+    font-family: Lato;
+}
+
+.btn__text:hover {
+    background: #818181;
+    color: #fff;
+}
+
+.image__cover {
+    width: 100%;
+}
+
+.image__cover img {
+    width: 550px;
+}
+
+
+/*Estilos generales CARDS*/
+
+.container__card-primary {
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+.card__primary {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    height: 485px;
+}
+
+.card__primary img {
+    width: 220px;
+    height: 200px;
+}
+
+.btn-card {
+    display: block;
+    padding: 8px 40px;
+    color: #000;
+    background-color: #fff;
+    font-weight: 500;
+    transition: all 300ms;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.btn-card:hover {
+    color: #fff;
+    background-color: #818181;
+}
+
+.text__card-primary {
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-primary h1 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    color: #fff;
+    font-family: Inter;
+}
+
+.text__trust hr {
+    text-align: end;
+    background-color: #000;
+    width: 46%;
+    margin: -20px 0% 40px -40px;
+    height: 5vh;
+    border: transparent;
+}
+
+.container__box-cardPrimary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 70px;
+}
+
+.box__card-primary {
+    background-color: #FCFF5C;
+    max-width: 350px;
+    padding: 10px 10px;
+    border: 1px solid #FCFF5C;
+    border-radius: 10px;
+    margin: 14px;
+    transition: all 300ms;
+}
+
+.box__card-primary:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #818181;
+    font-family: Lato;
+}
+
+.box__card-primary p {
+    margin-top: 20px;
+}
+
+/*Sobre nosotros*/
+
+.container__about {
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
+}
+
+.about {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text__about {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.text__about h1 {
+    color: var(--color_text-secundary);
+    font-weight: 600;
+}
+
+.text__about p {
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_text-tertiary);
+}
+
+
+.image__about {
+    width: 100%;
+    display: flex;
+}
+
+.image__about img {
+    width: 300px;
+}
+
+/*fondo home: services y packages*/
+.fondo-syp {
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-color: #818181;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/*Servicios*/
+
+.services {
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-image: url(/img/fondo1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.container__trust {
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-image: url(/img/fondo2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.card__service img {
+    width: 50px;
+}
+
+.card__service i {
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cont-services h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FCFF5C;
+    text-align: end;
+    margin: 30px 15% 50px 0;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.cont-services hr {
+    text-align: end;
+    background-color: #000;
+    width: 23%;
+    padding-bottom: 3px;
+    margin: -66px 0 40px 66%;
+    height: 5vh;
+    border: transparent;
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    width: 90%;
+}
+
+.cajitas a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato;
+}
+
+.cajitas a:hover {
+    color: #FCFF5C;
+}
+
+.cajitas h3 {
+    font-size: 15px;
+    padding: 30px 20px 0 20px;
+    margin-left: 125px;
+}
+
+.cajitas hr {
+    margin: 20px 0 60px 44%;
+    background-color: #fff;
+    width: 23%;
+    height: 3px;
+    border: transparent;
+}
+
+.cajitas3 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato;
+}
+
+.cajitas3 a:hover {
+    color: #FCFF5C;
+}
+
+.cajitas3 h3 {
+    font-size: 15px;
+    padding: 30px 20px 0 20px;
+    margin-left: 125px;
+}
+
+.cajitas3 hr {
+    margin: 34px 0 0 44%;
+    background-color: #fff;
+    width: 23%;
+    height: 2px;
+    border: transparent;
+}
+
+/*GALERIA*/
+.container2 {
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section2-home h3 {
+    color: #818181;
+    font-weight: 500;
+    font-size: 37px;
+    text-align: center;
+    margin: 100px 0 30px 0;
+    height: 11vh;
+    font-family: Inter;
+}
+
+.section2-home hr {
+    text-align: center;
+    align-items: center;
+    background-color: #FCFF5C;
+    width: 40%;
+    padding-bottom: 3px;
+    margin: -60px 0 40px 30%;
+    height: 5vh;
+    border: transparent;
+}
+
+.box1 img {
+    padding: 50px;
+    width: 90%;
+}
+
+.section2-home .container2 .box1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #FCFF5C;
+    text-align: center;
+}
+
+.box2 img {
+    padding: 50px;
+    width: 90%;
+}
+
+.section2-home .container2 .box2 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    text-align: center;
+}
+
+.box3 img {
+    padding: 50px;
+    width: 100%;
+}
+
+.section2-home .container2 .box3 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #818181;
+    text-align: center;
+}
+
+.box4 img {
+    padding: 50px;
+    width: 100%;
+}
+
+.section2-home .container2 .box4 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #FCFF5C;
+    text-align: center;
+}
+
+.box5 img {
+    padding: 50px;
+    width: 90%;
+}
+
+.section2-home .container2 .box5 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    text-align: center;
+}
+
+.box6 img {
+    padding: 50px;
+    width: 90%;
+}
+
+.section2-home .container2 .box6 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #818181;
+    text-align: center;
+}
+
+
+.footer-contain hr {
+    background-color: #f5f82f;
+    width: 70%;
+    padding-bottom: 3px;
+    margin: 0 auto;
+}
+
+.footer-contain {
+    width: 100%;
+    background-color: #818181;
+}
+
+.footer-contain h3 {
+    color: #fff;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    font-family: Lato;
+    font-weight: 500;
+}
+
+.caja-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+}
+
+.caja-footer img {
+    width: 90%;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.redes a i {
+    width: 50px;
+    color: #fff;
+}
+
+.redes a i:hover {
+    color: #FCFF5C;
+}
+
+.cajfoot-2 {
+    color: #fff;
+    display: block;
+}
+
+.cajfoot-2 p {
+    color: #fff;
+    display: block;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.cajfoot-2 h5 {
+    color: #fff;
+    display: block;
+    margin: 15px 0 30px 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cajfoot-3 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cajfoot-3 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Lato;
+}
+
+.cajfoot-3 a:hover {
+    color: #FCFF5C;
+}
+
+.cajfoot-4 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Lato;
+}
+
+.cajfoot-4 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Lato;
+}
+
+.cajfoot-4 a:hover {
+    color: #FCFF5C;
+}
+
+.cajfoot-5 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cajfoot-5 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Lato;
+}
+
+.cajfoot-5 a:hover {
+    color: #FCFF5C;
+}
+
+/*PÁGINA SERVICES*/
+.header-services {
+    margin-top: -118px;
+}
+
+.caja-services {
+    display: grid;
+    grid-template-columns: repeat(2, 10fr);
+}
+
+.servicios h1 {
+    text-align: center;
+    margin: 118px 0 40px 0;
+    font-size: 37px;
+    font-family: Inter;
+}
+
+.servicios hr {
+    text-align: center;
+    align-items: center;
+    background-color: #FCFF5C;
+    width: 30%;
+    padding-bottom: 3px;
+    margin: -63px 0 40px 35%;
+    height: 5vh;
+    border: transparent;
+}
+
+.cajita-services1 img {
+    width: 100%;
+    height: 50vh;
+}
+
+.cajita-services1 h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.cajita-services1 p {
+    font-size: 13px;
+    width: 76%;
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    font-family: Lato;
+    font-weight: 500;
+}
+
+.cajita-services2 img {
+    width: 100%;
+    height: 68vh;
+}
+
+.cajita-services2 h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.cajita-services2 p {
+    width: 70%;
+    font-size: 13px;
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    font-family: Lato;
+    font-weight: 500;
+}
+
+.cajita-services3 img {
+    width: 100%;
+    height: 48vh;
+}
+
+.cajita-services3 h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.cajita-services3 p {
+    width: 75%;
+    font-size: 13px;
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    font-family: Lato;
+    font-weight: 500;
+}
+
+.cajita-services4 img {
+    width: 100%;
+    height: 47vh;
+}
+
+.cajita-services4 h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.cajita-services4 p {
+    width: 75%;
+    font-size: 13px;
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    font-family: Lato;
+    font-weight: 500;
+}
+
+.cajita-services5 img {
+    width: 100%;
+    height: 38vh;
+}
+
+.cajita-services5 h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.cajita-services5 p {
+    width: 75%;
+    font-size: 13px;
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    font-family: Lato;
+    font-weight: 500;
+}
+
+.cajita-services1 button {
+    text-align: center;
+    margin: 0 0 30px 35%;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+    height: 39px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 3px solid #818181;
+}
+
+.cajita-services1 button:hover {
+    color: #fff;
+    background-color: #818181;
+}
+
+.cajita-services2 button {
+    text-align: center;
+    margin: 0 0 30px 35%;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+    height: 39px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 3px solid #818181;
+}
+
+.cajita-services2 button:hover {
+    color: #fff;
+    background-color: #818181;
+}
+
+.cajita-services3 button {
+    text-align: center;
+    margin: 0 0 30px 35%;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+    height: 39px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 3px solid #818181;
+}
+
+.cajita-services3 button:hover {
+    color: #fff;
+    background-color: #818181;
+}
+
+.cajita-services4 button {
+    text-align: center;
+    margin: 0 0 30px 35%;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+    height: 39px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 3px solid #818181;
+}
+
+.cajita-services4 button:hover {
+    color: #fff;
+    background-color: #818181;
+}
+
+.cajita-services5 button {
+    text-align: center;
+    margin: 0 0 30px 35%;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+    height: 39px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 3px solid #818181;
+}
+
+.cajita-services5 button:hover {
+    color: #fff;
+    background-color: #818181;
+}
+
+.footer-contain1 {
+    width: 100%;
+    background-color: #818181;
+}
+
+.footer-contain1 h3 {
+    color: #fff;
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.footer-contain1 hr {
+    background-color: #FCFF5C;
+    width: 70%;
+    padding-bottom: 2px;
+    margin: 0 auto;
+}
+
+/*PÁGINA PACKAGES*/
+.cont-packages h1 {
+    text-align: center;
+    font-size: 37px;
+    margin: 115px 0 40px 0;
+    font-family: Inter;
+}
+
+.cont-packages hr {
+    text-align: center;
+    align-items: center;
+    background-color: #FCFF5C;
+    width: 30%;
+    padding-bottom: 3px;
+    margin: -62px 0 60px 35%;
+    height: 5vh;
+    border: transparent;
+}
+
+.section-pack {
+    display: block;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cajita-pack {
+    background-color: #FCFF5C;
+    margin-bottom: 35px;
+    padding-top: 15px;
+    border-radius: 30px;
+}
+
+.cajita-pack h3 {
+    color: #818181;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 10px 30px;
+    font-family: Lato;
+}
+
+.cajita-pack p {
+    font-size: 15px;
+    margin: 0 0 8px 30px;
+    color: #818181;
+    font-family: Lato;
+}
+
+.cajita-pack hr {
+    width: 85%;
+    font-size: 15px;
+    margin: 15px 0 15px 70px;
+    color: #fff;
+    background-color: #fff;
+}
+
+.cajita-pack button {
+    width: 11%;
+    height: 6vh;
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 0 0 20px 40px;
+}
+
+.cajita-pack button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+    color: #fff;
+}
+
+.cajita-pack button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cajita-pack button a:hover {
+    color: #fff;
+}
+
+.subtit-pack h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #818181;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.cards-pack {
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    gap: 15px;
+    padding: 25px;
+    margin: 0 0 0 80px;
+}
+
+.cards {
+    background-color: #FCFF5C;
+    border-radius: 15px;
+    width: 80%;
+    height: 42vh;
+    margin-bottom: 40px;
+}
+
+.cards h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 10px 0 0 75px;
+    font-family: Lato;
+}
+
+.cards button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards button a:hover {
+    color: #fff;
+}
+
+.cards-pack .cards1 {
+    width: 80%;
+    height: 35vh;
+    background-color: #FCFF5C;
+    border-radius: 15px;
+}
+
+.cards1 h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards1 p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards1 button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 10px 0 0 80px;
+}
+
+.cards1 button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards1 button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards1 button a:hover {
+    color: #fff;
+}
+
+
+/*PÁGINA ABOUT US*/
+.header-about {
+    margin: -100px 0 0 0;
+}
+
+.main-about {
+    background-color: #818181;
+    margin-bottom: 40px;
+}
+
+.main-about h1 {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    margin: 90px 0 40px 0;
+    height: 11vh;
+    font-family: Inter;
+}
+
+.main-about h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    height: 11vh;
+    font-family: Lato;
+}
+
+.main-about h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    height: 11vh;
+}
+
+.caja-about {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.about img {
+    width: 70%;
+    border: 10px;
+    border-radius: 70px;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+}
+
+.aboutus p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.about-story {
+    display: block;
+    padding: 30px;
+}
+
+.about-story hr {
+    background-color: #FCFF5C;
+    width: 70%;
+    padding-bottom: 1px;
+    margin: 0 0 20px 15%;
+}
+
+.about-story h3 {
+    color: #FCFF5C;
+    margin-bottom: -15px;
+}
+
+/*PÁGINA CLIENTS*/
+
+
+.main-clients h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    margin: 90px 0 40px 0;
+    font-family: Inter;
+}
+
+.cont-clients hr {
+    text-align: center;
+    align-items: center;
+    background-color: #FCFF5C;
+    width: 20%;
+    padding-bottom: 3px;
+    margin: -63px 0 60px 40%;
+    height: 5vh;
+    border: transparent;
+}
+
+.caja-clients {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+    margin: 0 0 0 15%;
+}
+
+.caja-clients img {
+    width: 40%;
+    border: 10px;
+    border-radius: 80px;
+}
+
+.caja-clients img:hover {
+    transform: scale(1.1);
+}
+
+.caja-clientes2 {
+    background-color: #FCFF5C;
+    margin: 35px 0 20px 0;
+}
+
+.cajita-clientes {
+    padding: 20px 40px 20px 40px;
+}
+
+.cajita-clientes h3 {
+    text-align: center;
+    font-size: 23px;
+    color: #818181;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.cajita-clientes p {
+    text-align: center;
+    font-size: 16px;
+    color: #818181;
+}
+
+.main-clients-port {
+    background-color: #000;
+    margin-bottom: 30%;
+}
+
+
+/*CAROUSEL*/
+.carousel-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    /* Ajusta según la cantidad de imágenes que tengas en el carrusel */
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*PÁGINA PORTFOLIO*/
+.main-clients-port {
+    background-color: #818181;
+    height: 190vh;
+}
+
+.cont-portfolio h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    margin: 90px 0 40px 0;
+    padding: 30px 0 0 0;
+    font-family: Inter;
+}
+
+.cont-portfolio hr {
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    padding-bottom: 3px;
+    margin: -63px 0 30px 0%;
+    height: 5vh;
+    border: transparent;
+}
+
+.container3 {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+    padding: 0 30px;
+}
+
+.cajita-port1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 155%;
+}
+
+.cajita-port2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 155%;
+}
+
+.cajita-port3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 155%;
+}
+
+.cajita-port4 video {
+    object-fit: cover;
+    width: 675px;
+    height: 155%;
+    margin: 90px 0 0 0;
+}
+
+.cajita-port5 img {
+    object-fit: cover;
+    width: 100%;
+    height: 155%;
+    margin: 90px 0 0 0;
+}
+
+.cajita-port4 video:nth-child(4) {
+    grid-column-start: span 2;
+}
+
+.container4 {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+    padding: 70px 30px;
+}
+
+.titulo-beach h3 {
+    font-size: 20px;
+    margin: -220px 0 25px 20px;
+    font-family: Lato;
+}
+
+.cajas-beach {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.cajitas-beach img {
+    width: 100%;
+}
+
+.cajitas-beach video {
+    width: 100%;
+    margin: 120% 0 0 0;
+}
+
+/*PÁGINA CONTACT*/
+.contenedor-contact {
+    width: 100%;
+    background-color: #FCFF5C;
+}
+
+.contenedor-contact h1 {
+    color: #818181;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    margin: 90px 0 20px 0;
+}
+
+.contenedor-contact h4 {
+    color: #818181;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.formulario {
+    margin: 10px 0 0 50px;
+    align-items: end;
+    display: block;
+}
+
+.formulario textarea {
+    width: 70%;
+    height: 20vh;
+    border: 3px solid #FAFBFE;
+    background-color: #FCFF5C;
+    padding: 12px 20px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario textarea:focus {
+    border: 1px solid #000;
+}
+
+.formulario button {
+    margin: 30px 0 40px 70%;
+    padding: 12px 30px;
+    border: transparent;
+    background-color: #FCFF5C;
+    border: 3px solid #FAFBFE;
+    font-weight: 500;
+    color: #818181;
+}
+
+.formulario button:hover {
+    background-color: #818181;
+    color: #fff;
+    border: 3px solid #FAFBFE;
+}
+
+.formulario #name {
+    background-color: #FCFF5C;
+    width: 30%;
+    margin: 0 100px 20px 0;
+    padding: 12px 20px;
+    border: 3px solid #FAFBFE;
+    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+    outline: 0;
+}
+
+.formulario #email {
+    background-color: #FCFF5C;
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 3px solid #FAFBFE;
+    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+    outline: 0;
+}
+
+@media(max-width: 991px) {
+    .container2 {
+        padding: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box:nth-child(1) {
+        grid-column-start: span 1;
+    }
+
+    .box:nth-child(4) {
+        grid-column-start: span 1;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .menu{
+        background-color: #818181;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu label {
+        display: initial;
+        margin: 0 0 0 50%;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #818181;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+        margin: 0 0 25px 15px;
+    }
+    .menu .navbar ul li a{
+        color: #fff;
+        font-weight: 600;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .menu .socialMedia a i {
+        display: none;
+    }
+    /*INICIO*/
+    .container__cover {
+        padding-top: 10px;
+        padding-bottom: 65px;
+    }
+
+    .image__cover img {
+        width: 145px;
+    }
+
+    .text__cover h1 {
+        font-size: 25px;
+    }
+
+    .btn__text {
+        width: 120px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    /*SERVICES*/
+    .services h1 {
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    .cajas {
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        width: 100%;
+    }
+
+    .cajitas {
+        display: flex;
+        margin: 0 0 0 20px;
+    }
+
+    .cajitas h3 {
+        font-size: 15px;
+        color: #000;
+        margin: 0 auto;
+    }
+
+    .cajitas hr {
+        font-size: 15px;
+        color: #000;
+        width: 60%;
+        margin: 118px 0 0 -30px;
+    }
+
+    .cajitas3 h3 {
+        font-size: 15px;
+        color: #000;
+        margin: 0 auto;
+    }
+
+    .cajitas3 hr {
+        font-size: 15px;
+        color: #000;
+        width: 30%;
+        margin: 20px 0 0 20px;
+    }
+
+    /*PACKAGES*/
+    .card__primary {
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        height: 320%;
+    }
+
+    .box__card-primary {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        max-width: 350px;
+    }
+
+    .container__box-cardPrimary {
+        gap: 5px;
+        margin: -55px 0 -10px 0;
+    }
+
+    .carousel-item {
+        margin-top: 30px;
+        height: 250px;
+    }
+
+
+    .container2 {
+        padding: 0;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    /*CONTACT*/
+    .contenedor-contact {
+        width: 100%;
+    }
+
+    .contenedor-contact h1 {
+        font-size: 30px;
+    }
+
+    .contenedor-contact h4 {
+        font-size: 16px;
+    }
+
+    .formulario #name {
+        background-color: #FCFF5C;
+        width: 70%;
+        margin: 20px 0 20px 0;
+        padding: 12px 20px;
+        border: 3px solid #FAFBFE;
+        color: #999;
+        font-weight: 400;
+        font-size: 13px;
+        outline: 0;
+    }
+
+    .formulario #email {
+        background-color: #FCFF5C;
+        width: 70%;
+        margin: 0 0 20px 0;
+        padding: 12px 20px;
+        border: 3px solid #FAFBFE;
+        color: #999;
+        font-weight: 400;
+        font-size: 13px;
+        outline: 0;
+    }
+
+    .formulario textarea {
+        background-color: #FCFF5C;
+        width: 70%;
+        margin: 0 0 20px 0;
+        padding: 12px 20px;
+        border: 3px solid #FAFBFE;
+        color: #999;
+        font-weight: 400;
+        font-size: 13px;
+        outline: 0;
+    }
+
+    .formulario button {
+        margin: 30px 0 40px 50%;
+        padding: 12px 30px;
+        border: transparent;
+        background-color: #FCFF5C;
+        border: 3px solid #FAFBFE;
+        font-weight: 500;
+        color: #818181;
+    }
+
+    .cajita-services1 h4 {
+        font-size: 18px;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 600;
+    }
+
+    .cajita-services1 p {
+        font-size: 13px;
+        width: 76%;
+        text-align: unset;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-family: Lato;
+        font-weight: 500;
+    }
+
+    .cajita-services1 img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .cajita-services1 button {
+        text-align: center;
+        margin: 0 0 0 32px;
+        width: 60%;
+        font-size: 12px;
+        font-weight: 600;
+        height: 26px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 2px solid #818181;
+    }
+    .cajita-services2 h4 {
+        font-size: 18px;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 600;
+    }
+
+    .cajita-services2 p {
+        font-size: 13px;
+        width: 76%;
+        text-align: unset;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-family: Lato;
+        font-weight: 500;
+    }
+
+    .cajita-services2 img {
+        width: 100%;
+        height: 30vh;
+        margin: 40% 0 0 0;
+    }
+
+    .cajita-services2 button {
+        text-align: center;
+        margin: 0 0 10px 32px;
+        width: 60%;
+        font-size: 12px;
+        font-weight: 600;
+        height: 26px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 2px solid #818181;
+    }
+    .cajita-services3 h4 {
+        font-size: 18px;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 600;
+    }
+
+    .cajita-services3 p {
+        font-size: 13px;
+        width: 76%;
+        text-align: unset;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-family: Lato;
+        font-weight: 500;
+    }
+
+    .cajita-services3 img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .cajita-services3 button {
+        text-align: center;
+        margin: 0 0 10px 32px;
+        width: 60%;
+        font-size: 12px;
+        font-weight: 600;
+        height: 26px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 2px solid #818181;
+    }
+    .cajita-services4 h4 {
+        font-size: 18px;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 600;
+    }
+
+    .cajita-services4 p {
+        font-size: 13px;
+        width: 76%;
+        text-align: unset;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-family: Lato;
+        font-weight: 500;
+    }
+
+    .cajita-services4 img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .cajita-services4 button {
+        text-align: center;
+        margin: 0 0 10px 32px;
+        width: 60%;
+        font-size: 12px;
+        font-weight: 600;
+        height: 26px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 2px solid #818181;
+    }
+    .cajita-services5 h4 {
+        font-size: 18px;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 600;
+    }
+
+    .cajita-services5 p {
+        font-size: 13px;
+        width: 76%;
+        text-align: unset;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-family: Lato;
+        font-weight: 500;
+    }
+
+    .cajita-services5 img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .cajita-services5 button {
+        text-align: center;
+        margin: 0 0 10px 32px;
+        width: 60%;
+        font-size: 12px;
+        font-weight: 600;
+        height: 26px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 2px solid #818181;
+    }
+}

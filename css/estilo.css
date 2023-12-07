@@ -127,7 +127,8 @@
     font-weight: 500;
     text-align: left;
     color: #000;
-    margin-top: 140px;
+    margin-left: 50px;
+    margin-top: 40%;
     font-family: Inter;
 }
 
@@ -139,6 +140,7 @@
     display: block;
     width: 130px;
     margin-top: 40px;
+    margin-left: 50px;
     padding: 10px 20px;
     text-align: center;
     font-weight: 500;
@@ -192,11 +194,12 @@
     padding: 8px 40px;
     color: #000;
     background-color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 300ms;
     margin-top: 10px;
     font-size: 13px;
     text-decoration: none;
+    font-family: Lato;
 }
 
 .btn-card:hover {
@@ -221,7 +224,7 @@
     text-align: end;
     background-color: #000;
     width: 46%;
-    margin: -20px 0% 40px -40px;
+    margin: -20px 0% 40px -46px;
     height: 5vh;
     border: transparent;
 }
@@ -366,7 +369,7 @@
     background-color: #000;
     width: 23%;
     padding-bottom: 3px;
-    margin: -66px 0 40px 66%;
+    margin: -68px 0 40px 69%;
     height: 5vh;
     border: transparent;
 }
@@ -420,10 +423,10 @@
 }
 
 .cajitas3 hr {
-    margin: 34px 0 0 36%;
+    margin: 20px 0 0 36%;
     background-color: #fff;
     width: 23%;
-    height: 2px;
+    height: 3px;
     border: transparent;
 }
 
@@ -1017,7 +1020,7 @@
     background-color: #FCFF5C;
     border-radius: 15px;
     width: 80%;
-    height: 42vh;
+    height: 35vh;
     margin-bottom: 40px;
 }
 
@@ -1046,7 +1049,7 @@
     font-size: 12px;
     border-radius: 5px;
     border: 2px solid #000;
-    margin: 10px 0 0 75px;
+    margin: 10px 0 0 100px;
     font-family: Lato;
 }
 
@@ -1068,7 +1071,7 @@
 
 .cards-pack .cards1 {
     width: 80%;
-    height: 42vh;
+    height: 35vh;
     background-color: #FCFF5C;
     border-radius: 15px;
 }
@@ -1098,7 +1101,7 @@
     font-size: 13px;
     border-radius: 5px;
     border: 2px solid #000;
-    margin: 10px 0 0 80px;
+    margin: 10px 0 0 100px;
 }
 
 .cards1 button:hover {
@@ -1118,7 +1121,7 @@
 }
 .cards-pack .cards2 {
     width: 80%;
-    height: 42vh;
+    height: 35vh;
     background-color: #FCFF5C;
     border-radius: 15px;
 }
@@ -1148,7 +1151,7 @@
     font-size: 13px;
     border-radius: 5px;
     border: 2px solid #000;
-    margin: 5px 0 0 80px;
+    margin: 5px 0 0 100px;
 }
 
 .cards2 button:hover {

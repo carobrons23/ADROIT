@@ -115,32 +115,31 @@
 }
 
 .cover {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    background-image: url(../img/fondo-ini.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
-    padding: 0px 20px;
-    background-color: #FCFF5C;
+    padding: 125px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
 }
 
 .text__cover h1 {
+    width: 65%;
+    margin: 30px 0 0 -20px;
     font-size: 40px;
     font-weight: 500;
-    text-align: left;
     color: #000;
-    margin-left: 50px;
-    margin-top: 40%;
     font-family: Inter;
-}
-
-.text__cover img {
-    width: 35%;
 }
 
 .btn__text {
     display: block;
     width: 130px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: -20px;
     padding: 10px 20px;
     text-align: center;
     font-weight: 500;
@@ -1623,6 +1622,7 @@
     }
     #menu:checked ~ .navbar{
         display: initial;
+        margin-top: -1px;
     }
     .menu .socialMedia a i {
         display: none;

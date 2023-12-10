@@ -441,7 +441,7 @@
 .section2-home h3 {
     color: #818181;
     font-weight: 500;
-    font-size: 37px;
+    font-size: 27px;
     text-align: center;
     margin: 100px 0 30px 0;
     height: 11vh;
@@ -1636,6 +1636,7 @@
         display: flex;
         justify-content: space-between;
         height: 8vh;
+        padding: 40px 0;
     }
 
     .menu label {
@@ -1654,7 +1655,7 @@
 
     .menu .navbar ul li {
         width: 100%;
-        margin: 0 0 25px 15px;
+        margin: 0 0 27px 0;
     }
 
     .menu .navbar ul li a {
@@ -1710,7 +1711,7 @@
         background-color: #000;
         width: 75%;
         margin: -20px 0 40px 0;
-        height: 6vh;
+        height: 5vh;
         border: transparent;
     }
     .section2-home h3 {
@@ -1769,10 +1770,10 @@
     .cont-services hr {
         text-align: end;
         background-color: #000;
-        width: 55%;
+        width: 60%;
         padding-bottom: 3px;
-        margin: -68px 0 40px 38%;
-        height: 4vh;
+        margin: -68px 0 40px 40%;
+        height: 3vh;
         border: transparent;
     }
     .cajas {
@@ -1857,22 +1858,25 @@
     .contenedor-contact h4 {
         font-size: 16px;
     }
+    .formulario {
+        margin: 30px 0 0 13%;
+        align-items: end;
+        display: block;
+    }
 
     .formulario #name {
         background-color: #FCFF5C;
-        width: 70%;
+        width: 85%;
         margin: 20px 0 20px 0;
         padding: 12px 20px;
-        border: 3px solid #FAFBFE;
         color: #999;
         font-weight: 400;
         font-size: 13px;
-        outline: 0;
     }
 
     .formulario #email {
         background-color: #FCFF5C;
-        width: 70%;
+        width: 85%;
         margin: 0 0 20px 0;
         padding: 12px 20px;
         border: 3px solid #FAFBFE;
@@ -1884,7 +1888,7 @@
 
     .formulario textarea {
         background-color: #FCFF5C;
-        width: 70%;
+        width: 85%;
         margin: 0 0 20px 0;
         padding: 12px 20px;
         border: 3px solid #FAFBFE;
@@ -1895,7 +1899,7 @@
     }
 
     .formulario button {
-        margin: 30px 0 40px 50%;
+        margin: 30px 0 40px 65%;
         padding: 12px 30px;
         border: transparent;
         background-color: #FCFF5C;
@@ -2427,5 +2431,24 @@
         margin: 0 16px 0 0px;
         font-size: 14px;
         text-decoration: none;
+    }
+    /*ABOUT*/
+    .main-about h1 {
+        background-color: #000;
+        color: #fff;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin: 45px 0 40px 0;
+        height: 6vh;
+        font-family: Inter;
+    }
+    .main-about h3 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        height: 6vh;
+        font-family: Lato;
     }
 }

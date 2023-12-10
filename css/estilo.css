@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-.container{
+.container {
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -48,6 +48,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .menu .navbar ul li {
     position: relative;
     float: left;
@@ -121,14 +122,14 @@
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-    padding: 125px;
+    padding: 180px 0 210px 0;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
 }
 
 .text__cover h1 {
-    width: 65%;
-    margin: 30px 0 0 -20px;
+    width: 50%;
+    margin: 30px 0 0 100px;
     font-size: 40px;
     font-weight: 500;
     color: #000;
@@ -139,7 +140,7 @@
     display: block;
     width: 130px;
     margin-top: 40px;
-    margin-left: -20px;
+    margin-left: 100px;
     padding: 10px 20px;
     text-align: center;
     font-weight: 500;
@@ -819,6 +820,10 @@
     border: 3px solid #818181;
 }
 
+.cajita-services1 button a {
+    color: #000;
+}
+
 .cajita-services1 button:hover {
     color: #fff;
     background-color: #818181;
@@ -835,6 +840,10 @@
     background-color: #fff;
     border-radius: 8px;
     border: 3px solid #818181;
+}
+
+.cajita-services2 button a {
+    color: #000;
 }
 
 .cajita-services2 button:hover {
@@ -855,6 +864,10 @@
     border: 3px solid #818181;
 }
 
+.cajita-services3 button a {
+    color: #000;
+}
+
 .cajita-services3 button:hover {
     color: #fff;
     background-color: #818181;
@@ -873,6 +886,10 @@
     border: 3px solid #818181;
 }
 
+.cajita-services4 button a {
+    color: #000;
+}
+
 .cajita-services4 button:hover {
     color: #fff;
     background-color: #818181;
@@ -889,6 +906,10 @@
     background-color: #fff;
     border-radius: 8px;
     border: 3px solid #818181;
+}
+
+.cajita-services5 button a {
+    color: #000;
 }
 
 .cajita-services5 button:hover {
@@ -1118,6 +1139,7 @@
 .cards1 button a:hover {
     color: #fff;
 }
+
 .cards-pack .cards2 {
     width: 80%;
     height: 35vh;
@@ -1249,6 +1271,7 @@
     margin-bottom: -15px;
     font-family: Inter;
 }
+
 .about-story p {
     color: #000;
     margin: 0 10% -15px 10%;
@@ -1258,9 +1281,10 @@
 
 /*PÁGINA CLIENTS*/
 
-.main-clients{
+.main-clients {
     background-color: #818181;
 }
+
 .main-clients h1 {
     color: #000;
     font-weight: 700;
@@ -1292,36 +1316,45 @@
 .caja-clients img {
     width: 50%;
 }
+
 .clientes1 img {
     width: 40%;
 }
+
 .clientes2 img {
     width: 45%;
 }
+
 .clientes3 img {
     width: 45%;
     margin-top: 20px;
 }
+
 .clientes4 img {
     width: 60%;
     margin: 0 0 0 -30px;
 }
+
 .clientes5 img {
     width: 40%;
     margin: 30px 0 0 0;
 }
+
 .clientes6 img {
     width: 60%;
     margin: 55px 0 0 -20px;
 }
+
 .clientes7 img {
     width: 50%;
     margin: 0 0 0 -20px;
 }
+
 .clientes8 img {
     width: 80%;
     margin: -40px 0 0 -60px;
 }
+
 .clientes9 img {
     width: 70%;
     margin: -10px 0 0 -40px;
@@ -1383,7 +1416,7 @@
 /*PÁGINA PORTFOLIO*/
 .main-clients-port {
     background-color: #818181;
-    height: 190vh;
+    height: 155vh;
 }
 
 .cont-portfolio h1 {
@@ -1595,16 +1628,19 @@
 
 
 @media (max-width: 991px) {
-    .menu{
+    .menu {
         background-color: #818181;
         display: flex;
         justify-content: space-between;
+        height: 8vh;
     }
+
     .menu label {
         display: initial;
         margin: 0 0 0 50%;
     }
-    .menu .navbar{
+
+    .menu .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -1612,21 +1648,26 @@
         display: none;
         background-color: #818181;
     }
-    .menu .navbar ul li{
+
+    .menu .navbar ul li {
         width: 100%;
         margin: 0 0 25px 15px;
     }
-    .menu .navbar ul li a{
+
+    .menu .navbar ul li a {
         color: #fff;
         font-weight: 600;
     }
-    #menu:checked ~ .navbar{
+
+    #menu:checked~.navbar {
         display: initial;
         margin-top: -1px;
     }
+
     .menu .socialMedia a i {
         display: none;
     }
+
     /*INICIO*/
     .container__cover {
         padding-top: 10px;
@@ -1814,11 +1855,13 @@
         border-radius: 8px;
         border: 2px solid #818181;
     }
+
     .cajita-services2 h4 {
         font-size: 18px;
         text-align: center;
         font-family: Lato;
         font-weight: 600;
+        margin: 0 0 0 0;
     }
 
     .cajita-services2 p {
@@ -1834,8 +1877,8 @@
 
     .cajita-services2 img {
         width: 100%;
-        height: 30vh;
-        margin: 40% 0 0 0;
+        height: 60vh;
+        margin: 48% 0 0 0;
     }
 
     .cajita-services2 button {
@@ -1850,6 +1893,7 @@
         border-radius: 8px;
         border: 2px solid #818181;
     }
+
     .cajita-services3 h4 {
         font-size: 18px;
         text-align: center;
@@ -1885,6 +1929,7 @@
         border-radius: 8px;
         border: 2px solid #818181;
     }
+
     .cajita-services4 h4 {
         font-size: 18px;
         text-align: center;
@@ -1906,6 +1951,7 @@
     .cajita-services4 img {
         width: 100%;
         height: 30vh;
+        margin: 20px 0 0 0;
     }
 
     .cajita-services4 button {
@@ -1920,6 +1966,7 @@
         border-radius: 8px;
         border: 2px solid #818181;
     }
+
     .cajita-services5 h4 {
         font-size: 18px;
         text-align: center;
@@ -1954,5 +2001,293 @@
         background-color: #fff;
         border-radius: 8px;
         border: 2px solid #818181;
+    }
+
+    .servicios h1 {
+        font-size: 27px;
+        margin: 118px 0 40px 0;
+    }
+
+    .servicios hr {
+        width: 58%;
+        margin: -56px 0 40px 88px;
+        height: 3vh;
+    }
+
+    .cont-packages h1 {
+        text-align: center;
+        font-size: 30px;
+        margin: 125px 0 40px 0;
+        font-family: Inter;
+    }
+
+    .cont-packages hr {
+        text-align: center;
+        background-color: #FCFF5C;
+        width: 66%;
+        margin: -57px 0 25px 17%;
+        height: 3vh;
+        border: transparent;
+    }
+
+    .cajita-pack p {
+        font-size: 15px;
+        padding: 0 20px 0 20px;
+        color: #818181;
+        font-family: Lato;
+        text-align: justify;
+    }
+
+    .cajita-pack hr {
+        width: 85%;
+        font-size: 15px;
+        margin: 15px 0 15px 22px;
+        color: #fff;
+        background-color: #fff;
+    }
+
+    .cajita-pack {
+        background-color: #FCFF5C;
+        margin-bottom: 35px;
+        width: 110%;
+        padding-top: 15px;
+        border-radius: 25px;
+    }
+
+    .cajita-pack h3 {
+        color: #818181;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0 0 10px 30px;
+        font-family: Lato;
+    }
+
+    .cajita-pack button {
+        width: 26%;
+        height: 4vh;
+        font-size: 13px;
+        margin: 10px 0 20px 40px;
+    }
+
+    .subtit-pack h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .cards-pack {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        margin: 0 0 0 35px;
+    }
+
+    .cards {
+        background-color: #FCFF5C;
+        border-radius: 15px;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .cards button {
+        width: 58%;
+        height: 4vh;
+        font-size: 12px;
+        border-radius: 5px;
+        margin: 10px 0 0 37px;
+        font-family: Lato;
+    }
+
+    .cards-pack .cards2 {
+        width: 100%;
+        height: 32vh;
+        background-color: #FCFF5C;
+        border-radius: 15px;
+    }
+
+    .cards2 button {
+        width: 58%;
+        height: 4vh;
+        font-size: 13px;
+        margin: 5px 0 0 40px;
+    }
+
+    .cards-pack .cards1 {
+        width: 100%;
+        height: 32vh;
+        background-color: #FCFF5C;
+        border-radius: 15px;
+    }
+
+    .cards1 button {
+        width: 58%;
+        height: 4vh;
+        font-size: 13px;
+        margin: 10px 0 0 40px;
+    }
+
+    .main-clients h1 {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin: 64px 0 40px 0;
+        font-family: Inter;
+        padding: 20px 0 0 0;
+    }
+
+    .cont-clients hr {
+        text-align: center;
+        background-color: #FCFF5C;
+        width: 100%;
+        padding-bottom: 3px;
+        margin: -63px 0 60px 0%;
+        height: 3vh;
+        border: transparent;
+    }
+
+    .clientes1 img {
+        width: 70%;
+    }
+
+    .clientes2 img {
+        width: 80%;
+    }
+
+    .clientes3 img {
+        width: 78%;
+        margin-top: 15px;
+    }
+
+    .clientes4 img {
+        width: 80%;
+        margin: 0 0 0 -6px;
+    }
+
+    .clientes5 img {
+        width: 62%;
+        margin: 11px 0 0 8px;
+    }
+
+    .clientes6 img {
+        width: 82%;
+        margin: 30px 0 0 -7px;
+    }
+
+    .clientes7 img {
+        width: 75%;
+        margin: 0 0 0 -3px;
+    }
+
+    .clientes8 img {
+        width: 120%;
+        margin: -25px 0 0 -25px;
+    }
+
+    .clientes9 img {
+        width: 90%;
+        margin: -2px 0 0 -10px;
+    }
+
+    .cont-portfolio hr {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 3px;
+        margin: -58px 0 30px 0%;
+        height: 3vh;
+        border: transparent;
+    }
+
+    .cont-portfolio h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin: 57px 0 40px 0;
+        padding: 30px 0 0 0;
+        font-family: Inter;
+    }
+
+    .container3 {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 35px 15px;
+        padding: 0 30px;
+    }
+
+    .cajita-port1 img {
+        object-fit: cover;
+        width: 100%;
+        height: 110%;
+    }
+
+    .cajita-port2 img {
+        object-fit: cover;
+        width: 100%;
+        height: 110%;
+    }
+
+    .cajita-port3 img {
+        width: 208%;
+        height: 72%;
+    }
+    .main-clients-port {
+        background-color: #818181;
+        height: 148vh;
+    }
+
+    .container4 {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: 250px;
+        padding: 0 30px;
+        margin: -60px 0 0 0;
+    }
+
+    .cajita-port4 video {
+        object-fit: cover;
+        width: 100%;
+        height: 120%;
+    }
+
+    .cajita-port5 img {
+        object-fit: cover;
+        width: 100%;
+        height: 75%;
+        margin: 90px 0 0 0;
+    }
+
+    .titulo-beach h3 {
+        font-size: 20px;
+        margin: -85px 0 25px 20px;
+        font-family: Lato;
+    }
+
+    .cajas-beach {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        padding: 0 20px;
+    }
+
+    .cajitas-beach img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .cajitas-beach video {
+        width: 100%;
+        height: 40vh;
+        margin: -50px 0 20px 0;
+    }
+
+    .cajitas-beach img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .cajitas-beach p {
+        font-family: 'Lato';
+        font-size: 20px;
     }
 }

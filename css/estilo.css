@@ -1694,11 +1694,16 @@
     }
     .text__card-primary h1 {
         font-size: 30px;
-        font-weight: 600;
+        font-weight: 500;
         margin: 0 0 0 20px;
         text-align: left;
         color: #fff;
         font-family: Inter;
+    }
+    .card__primary img {
+        width: 220px;
+        margin: 0 auto;
+        height: 200px;
     }
     .text__trust hr {
         text-align: end;
@@ -1723,7 +1728,7 @@
         background-color: #FCFF5C;
         width: 85%;
         padding-bottom: 3px;
-        margin: -87px 0 40px 30px;
+        margin: -103px 0 40px 30px;
         height: 3vh;
         border: transparent;
     }
@@ -1758,7 +1763,7 @@
         width: 100%;
     }
     .services h1 {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 30px;
     }
     .cont-services hr {

@@ -1825,6 +1825,7 @@
         text-align: center;
         font-family: Lato;
         font-weight: 600;
+        margin-top: 10px;
     }
 
     .cajita-services1 p {
@@ -2005,19 +2006,19 @@
 
     .servicios h1 {
         font-size: 27px;
-        margin: 118px 0 40px 0;
+        margin: 100px 0 40px 0;
     }
 
     .servicios hr {
-        width: 58%;
-        margin: -56px 0 40px 88px;
+        width: 65%;
+        margin: -56px 0 40px 68px;
         height: 3vh;
     }
 
     .cont-packages h1 {
         text-align: center;
         font-size: 30px;
-        margin: 125px 0 40px 0;
+        margin: 100px 0 40px 0;
         font-family: Inter;
     }
 
@@ -2032,7 +2033,7 @@
 
     .cajita-pack p {
         font-size: 15px;
-        padding: 0 20px 0 20px;
+        margin: 0 20px 0 20px;
         color: #818181;
         font-family: Lato;
         text-align: justify;
@@ -2063,10 +2064,10 @@
     }
 
     .cajita-pack button {
-        width: 26%;
+        width: 32%;
         height: 4vh;
         font-size: 13px;
-        margin: 10px 0 20px 40px;
+        margin: 15px 0 20px 40px;
     }
 
     .subtit-pack h3 {
@@ -2084,7 +2085,8 @@
         background-color: #FCFF5C;
         border-radius: 15px;
         width: 100%;
-        height: 30vh;
+        height: 40vh;
+        margin: 0 auto;
     }
 
     .cards button {
@@ -2092,13 +2094,13 @@
         height: 4vh;
         font-size: 12px;
         border-radius: 5px;
-        margin: 10px 0 0 37px;
+        margin: 10px 0 0 34px;
         font-family: Lato;
     }
 
     .cards-pack .cards2 {
         width: 100%;
-        height: 32vh;
+        height: 45vh;
         background-color: #FCFF5C;
         border-radius: 15px;
     }
@@ -2107,12 +2109,12 @@
         width: 58%;
         height: 4vh;
         font-size: 13px;
-        margin: 5px 0 0 40px;
+        margin: 5px 0 0 35px;
     }
 
     .cards-pack .cards1 {
         width: 100%;
-        height: 32vh;
+        height: 45vh;
         background-color: #FCFF5C;
         border-radius: 15px;
     }
@@ -2121,7 +2123,7 @@
         width: 58%;
         height: 4vh;
         font-size: 13px;
-        margin: 10px 0 0 40px;
+        margin: 84px 0 0 34px;
     }
 
     .main-clients h1 {
@@ -2289,5 +2291,42 @@
     .cajitas-beach p {
         font-family: 'Lato';
         font-size: 20px;
+    }
+    /*FOOTER*/
+    .caja-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }    
+    .footer-contain1 h3 {
+        color: #fff;
+        text-align: center;
+        padding: 15px 0 10px 0;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .redes {
+        padding-bottom: 20px;
+        margin: 0 0 0 20px;
+    }
+    .caja-footer img {
+        width: 95%;
+        margin: 7px 0 0 7px;
+    }
+    .cajfoot-2 h5 {
+        color: #fff;
+        display: block;
+        margin: 15px 0 30px 0;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .cajfoot-2 p {
+        color: #fff;
+        display: block;
+        font-family: Lato;
+        margin: 0 16px 0 0px;
+        font-size: 14px;
     }
 }

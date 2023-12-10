@@ -1724,11 +1724,39 @@
         width: 85%;
         padding-bottom: 3px;
         margin: -87px 0 40px 30px;
-        height: 4vh;
+        height: 3vh;
         border: transparent;
     }
-
+    .box1 img {
+        padding: 10px 0;
+        width: 90%;
+    }
+    .box2 img {
+        padding: 25px;
+        width: 100%;
+    }
+    .box3 img {
+        padding: 18px 10px;
+        width: 100%;
+    }
+    .box4 img {
+        padding: 18px 6px;
+        width: 95%;
+    }
+    .box5 img {
+        padding: 15px;
+        width: 95%;
+    }
+    .box6 img {
+        padding: 10px;
+        width: 95%;
+    }
     /*SERVICES*/
+    .services {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
     .services h1 {
         font-weight: 600;
         font-size: 30px;
@@ -1749,7 +1777,8 @@
     }
 
     .cajitas {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
         margin: 0 0 0 20px;
     }
 
@@ -1763,8 +1792,9 @@
     .cajitas hr {
         font-size: 15px;
         color: #000;
-        width: 35%;
-        margin: 118px 0 35px -12px;
+        display: flex;
+        width: 55px;
+        margin: 20px 0 45px 11px;
     }
 
     .cajitas3 h3 {

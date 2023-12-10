@@ -2014,6 +2014,12 @@
         margin: -56px 0 40px 68px;
         height: 3vh;
     }
+    .section-pack {
+        display: block;
+        padding: 30px;
+        width: 80%;
+        margin: 0 0 0 25px;
+    }
 
     .cont-packages h1 {
         text-align: center;
@@ -2078,14 +2084,14 @@
     .cards-pack {
         display: grid;
         grid-template-columns: repeat(2, 6fr);
-        margin: 0 0 0 35px;
+        margin: 0 auto;
     }
 
     .cards {
         background-color: #FCFF5C;
         border-radius: 15px;
         width: 100%;
-        height: 40vh;
+        height: 35vh;
         margin: 0 auto;
     }
 
@@ -2100,7 +2106,7 @@
 
     .cards-pack .cards2 {
         width: 100%;
-        height: 45vh;
+        height: 35vh;
         background-color: #FCFF5C;
         border-radius: 15px;
     }
@@ -2114,7 +2120,7 @@
 
     .cards-pack .cards1 {
         width: 100%;
-        height: 45vh;
+        height: 35vh;
         background-color: #FCFF5C;
         border-radius: 15px;
     }
@@ -2328,5 +2334,6 @@
         font-family: Lato;
         margin: 0 16px 0 0px;
         font-size: 14px;
+        text-decoration: none;
     }
 }

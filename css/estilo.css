@@ -713,7 +713,8 @@
 
 .cajita-services2 img {
     width: 100%;
-    height: 68vh;
+    height: 60vh;
+    margin-top: 20px;
 }
 
 .cajita-services2 h4 {
@@ -761,7 +762,8 @@
 
 .cajita-services4 img {
     width: 100%;
-    height: 45vh;
+    height: 35vh;
+    margin-top: 25px;
 }
 
 .cajita-services4 h4 {
@@ -785,7 +787,8 @@
 
 .cajita-services5 img {
     width: 100%;
-    height: 38vh;
+    height: 30vh;
+    margin-bottom: 40px;
 }
 
 .cajita-services5 h4 {
@@ -1310,7 +1313,7 @@
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     gap: 20px;
-    margin: 0 0 0 15%;
+    margin: 0 5px 0 15px;
 }
 
 .caja-clients img {
@@ -1656,7 +1659,7 @@
 
     .menu .navbar ul li a {
         color: #fff;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     #menu:checked~.navbar {
@@ -1680,6 +1683,8 @@
 
     .text__cover h1 {
         font-size: 25px;
+        width: 50%;
+        margin: 0 0 0 20px;
     }
 
     .btn__text {
@@ -1687,13 +1692,56 @@
         font-weight: 500;
         font-size: 10px;
     }
+    .text__card-primary h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0 0 0 20px;
+        text-align: left;
+        color: #fff;
+        font-family: Inter;
+    }
+    .text__trust hr {
+        text-align: end;
+        background-color: #000;
+        width: 75%;
+        margin: -20px 0 40px 0;
+        height: 6vh;
+        border: transparent;
+    }
+    .section2-home h3 {
+        color: #818181;
+        font-weight: 500;
+        font-size: 27px;
+        text-align: center;
+        margin: 100px 0 30px 0;
+        height: 11vh;
+        font-family: Inter;
+    }
+    .section2-home hr {
+        text-align: center;
+        align-items: center;
+        background-color: #FCFF5C;
+        width: 85%;
+        padding-bottom: 3px;
+        margin: -87px 0 40px 30px;
+        height: 4vh;
+        border: transparent;
+    }
 
     /*SERVICES*/
     .services h1 {
         font-weight: 600;
-        font-size: 32px;
+        font-size: 30px;
     }
-
+    .cont-services hr {
+        text-align: end;
+        background-color: #000;
+        width: 55%;
+        padding-bottom: 3px;
+        margin: -68px 0 40px 38%;
+        height: 4vh;
+        border: transparent;
+    }
     .cajas {
         display: grid;
         grid-template-columns: repeat(2, 3fr);
@@ -1709,13 +1757,14 @@
         font-size: 15px;
         color: #000;
         margin: 0 auto;
+        padding: 10px 0 0 10px;
     }
 
     .cajitas hr {
         font-size: 15px;
         color: #000;
-        width: 60%;
-        margin: 118px 0 0 -30px;
+        width: 35%;
+        margin: 118px 0 35px -12px;
     }
 
     .cajitas3 h3 {
@@ -1879,7 +1928,7 @@
     .cajita-services2 img {
         width: 100%;
         height: 60vh;
-        margin: 48% 0 0 0;
+        margin: 20% 0 0 0;
     }
 
     .cajita-services2 button {
@@ -1915,7 +1964,8 @@
 
     .cajita-services3 img {
         width: 100%;
-        height: 30vh;
+        height: 35vh;
+        margin-top: 15px;
     }
 
     .cajita-services3 button {
@@ -1952,7 +2002,7 @@
     .cajita-services4 img {
         width: 100%;
         height: 30vh;
-        margin: 20px 0 0 0;
+        margin: 30px 0 0 0;
     }
 
     .cajita-services4 button {
@@ -1989,6 +2039,7 @@
     .cajita-services5 img {
         width: 100%;
         height: 30vh;
+        margin-bottom: 40px;
     }
 
     .cajita-services5 button {
@@ -2031,8 +2082,8 @@
     .cont-packages hr {
         text-align: center;
         background-color: #FCFF5C;
-        width: 66%;
-        margin: -57px 0 25px 17%;
+        width: 73%;
+        margin: -57px 0 25px 13%;
         height: 3vh;
         border: transparent;
     }
@@ -2136,7 +2187,7 @@
         font-weight: 700;
         font-size: 30px;
         text-align: center;
-        margin: 64px 0 40px 0;
+        margin: 60px 0 40px 0;
         font-family: Inter;
         padding: 20px 0 0 0;
     }
@@ -2149,6 +2200,12 @@
         margin: -63px 0 60px 0%;
         height: 3vh;
         border: transparent;
+    }
+    .caja-clients {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 20px;
+        margin: 0 5px 0 14px;
     }
 
     .clientes1 img {

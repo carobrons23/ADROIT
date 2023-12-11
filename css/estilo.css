@@ -2294,6 +2294,7 @@
     .main-clients-port {
     background-color: #818181;
     height: 162vh;
+    margin-bottom: 60%;
 }
 
     .cont-portfolio hr {
@@ -2339,10 +2340,6 @@
     .cajita-port3 img {
         width: 208%;
         height: 72%;
-    }
-    .main-clients-port {
-        background-color: #818181;
-        height: 162vh;
     }
 
     .container4 {

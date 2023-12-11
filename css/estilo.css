@@ -2430,6 +2430,7 @@
         font-weight: 500;
     }
     .cajfoot-2 p {
+        text-decoration: none;
         color: #fff;
         display: block;
         font-family: Lato;

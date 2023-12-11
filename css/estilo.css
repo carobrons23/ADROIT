@@ -274,12 +274,8 @@
 }
 
 .about {
-    max-width: 1200px;
     margin: auto;
     padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .text__about {
@@ -762,8 +758,8 @@
 
 .cajita-services4 img {
     width: 100%;
-    height: 35vh;
-    margin-top: 25px;
+    height: 42vh;
+    margin-top: 10px;
 }
 
 .cajita-services4 h4 {
@@ -1237,21 +1233,22 @@
 .caja-about {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 0 0 0 75px;
 }
 
 .about img {
-    width: 70%;
+    width: 60%;
     border: 10px;
-    border-radius: 90px;
+    border-radius: 65%;
 }
 
 .about img:hover {
     transform: scale(1.1);
 }
 
-.aboutus p {
+.about p {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 20px 10px 20px;
+    margin: 8px 0 5px 8px;
     text-align: center;
     font-family: Lato;
 }
@@ -1313,7 +1310,7 @@
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     gap: 20px;
-    margin: 0 5px 0 15px;
+    margin: 0 5px 0 15%;
 }
 
 .caja-clients img {
@@ -1419,7 +1416,7 @@
 /*PÁGINA PORTFOLIO*/
 .main-clients-port {
     background-color: #818181;
-    height: 155vh;
+    height: 165vh;
 }
 
 .cont-portfolio h1 {
@@ -2357,13 +2354,14 @@
         object-fit: cover;
         width: 100%;
         height: 120%;
+        margin: 0 auto;
     }
 
     .cajita-port5 img {
         object-fit: cover;
         width: 100%;
         height: 75%;
-        margin: 90px 0 0 0;
+        margin: 75px 0 0 0;
     }
 
     .titulo-beach h3 {
@@ -2464,6 +2462,7 @@
     .about {
         margin: auto;
         padding: 0px 20px;
+        display: grid;
     }
     .about img {
         width: 70%;

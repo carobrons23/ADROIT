@@ -2340,18 +2340,40 @@
     .cajita-port1 img {
         object-fit: cover;
         width: 100%;
-        height: 110%;
+        margin: 15px 0 0 0;
     }
 
     .cajita-port2 img {
         object-fit: cover;
         width: 100%;
-        height: 110%;
+        margin: 35% 0 0 0;
     }
 
     .cajita-port3 img {
-        width: 208%;
-        height: 72%;
+        width: 100%;
+    }
+    .cajita-port4 img {
+        object-fit: cover;
+        width: 100%;
+    }
+    .cajita-port5 img {
+        object-fit: cover;
+        width: 100%;
+    }
+    .cajita-port6 img {
+        object-fit: cover;
+        width: 100%;
+        margin: -80% 0 0 0;
+    }
+    .cajita-port7 img {
+        object-fit: cover;
+        width: 100%;
+        height: 87%;
+    }
+    .cajita-port8 img {
+        object-fit: cover;
+        width: 100%;
+        margin: -15% 0 11% 0;
     }
 
     .container4 {
@@ -2364,19 +2386,6 @@
         margin: -70px 0 0 0;
     }
 
-    .cajita-port4 video {
-        object-fit: cover;
-        width: 100%;
-        height: 120%;
-        margin: 0 auto;
-    }
-
-    .cajita-port5 img {
-        object-fit: cover;
-        width: 100%;
-        height: 75%;
-        margin: px 0 0 0;
-    }
 
     .titulo-beach h3 {
         font-size: 20px;

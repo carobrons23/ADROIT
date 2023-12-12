@@ -2333,8 +2333,8 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 35px 15px;
-        padding: 0 30px;
+        grid-gap: 20px 15px;
+        padding: 0 20px;
     }
 
     .cajita-port1 img {
@@ -2346,15 +2346,17 @@
     .cajita-port2 img {
         object-fit: cover;
         width: 100%;
-        margin: 35% 0 0 0;
+        margin: 15px 0 0 0;
     }
 
     .cajita-port3 img {
         width: 100%;
+        margin: -35% 0 0 0;
     }
     .cajita-port4 img {
         object-fit: cover;
         width: 100%;
+        margin: -35% 0 0 0;
     }
     .cajita-port5 img {
         object-fit: cover;
@@ -2363,17 +2365,17 @@
     .cajita-port6 img {
         object-fit: cover;
         width: 100%;
-        margin: -80% 0 0 0;
     }
     .cajita-port7 img {
         object-fit: cover;
         width: 100%;
-        height: 87%;
+        height: 20vh;
+        margin: -80% 0 0 0;
     }
     .cajita-port8 img {
         object-fit: cover;
         width: 100%;
-        margin: -15% 0 11% 0;
+        margin: -80% 0 0 0;
     }
 
     .container4 {

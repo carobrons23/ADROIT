@@ -586,6 +586,7 @@
 
 .caja-footer img {
     width: 90%;
+    margin-top: -20px;
 }
 
 .redes {
@@ -1233,7 +1234,7 @@
     font-size: 37px;
     text-align: center;
     margin: 45px 0 40px 0;
-    height: 11vh;
+    height: 8vh;
     font-family: Inter;
 }
 

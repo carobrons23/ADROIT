@@ -1393,33 +1393,39 @@
 
 
 /*CAROUSEL*/
-.slider{
-    width: 75vw;
+.slider-frame{
+    width: 1280px;
     height: auto;
-    margin: auto;
+    margin: 50px auto 0;
     overflow: hidden;
+
+    animation: slide 16s infinite alternate ease-in-out;
 }
-.slider .slide-track{
+.slider-frame ul{
+    width: 400%;
+    padding: 0;
     display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(200px * 14);
 }
-.slider .slide{
-    width: 200px;
+.slider-frame li{
+    width: 100%;
+    list-style: none;
 }
-.slider .slide img{
+.slider-frame img{
     width: 100%;
 }
-@keyframes scroll{
-    0%{
-        -webkit-animation: translateX(0);
-        transform: translateX(0);
-    }
-    100%{
-        -webkit-animation: translateX(calc(-200px * 7));
-        transform: translateX(calc(-200px * 7));
-    }
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
 }
 
 /*PÁGINA PORTFOLIO*/

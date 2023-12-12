@@ -1450,7 +1450,7 @@
     width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(10, 2fr);
+    grid-template-columns: repeat(4, 2fr);
     grid-template-rows: 250px;
     grid-gap: 20px;
     padding: 0 30px;
@@ -1472,6 +1472,22 @@
 }
 
 .cajita-port4 img {
+    object-fit: cover;
+    width: 100%;
+}
+.cajita-port5 img {
+    object-fit: cover;
+    width: 100%;
+}
+.cajita-port6 img {
+    object-fit: cover;
+    width: 100%;
+}
+.cajita-port7 img {
+    object-fit: cover;
+    width: 100%;
+}
+.cajita-port8 img {
     object-fit: cover;
     width: 100%;
 }
@@ -1516,7 +1532,7 @@
 /*PÁGINA CONTACT*/
 .contenedor-contact {
     width: 100%;
-    background-color: #FCFF5C;
+    background-color: #b7b916;
 }
 
 .contenedor-contact h1 {

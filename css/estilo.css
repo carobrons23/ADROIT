@@ -1676,10 +1676,9 @@
     /*INICIO*/
     .container__cover {
         padding-top: 10px;
-        padding-bottom: 65px;
     }
     .cover {
-        background-image: url(../img/fondo-ini.jpg);
+        background-image: url(../img/responsive-home.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
@@ -1725,8 +1724,8 @@
         font-weight: 500;
         font-size: 27px;
         text-align: center;
-        margin: 0 0 30px 0;
-        height: 11vh;
+        margin: 25px 0 30px 0;
+        height: 10vh;
         font-family: Inter;
     }
     .section2-home hr {

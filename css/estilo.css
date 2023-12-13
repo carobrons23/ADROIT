@@ -1411,14 +1411,6 @@
     color: #818181;
 }
 
-.main-clients-port {
-    background-color: #000;
-    margin-bottom: 30%;
-}
-
-
-/*CAROUSEL*/
-
 /*PÁGINA PORTFOLIO*/
 .main-clients-port {
     background-color: #818181;
@@ -1509,7 +1501,7 @@
 
 .titulo-beach h3 {
     font-size: 20px;
-    margin: -220px 0 25px 20px;
+    margin: -220px 0 15px 20px;
     font-family: Lato;
 }
 

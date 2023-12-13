@@ -355,7 +355,6 @@
 
 .container__trust {
     padding-top: 65px;
-    padding-bottom: 70px;
     background-image: url(../img/fondo2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1617,8 +1616,8 @@
 
 @media(max-width: 991px) {
     .container2 {
-        padding: 30px;
-        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        grid-template-columns: repeat(2, 2fr);
         margin: 0;
     }
 
@@ -2491,4 +2490,9 @@
         margin: 0 0 -42px 0;
         height: 62vh;
     }
+    .slide {
+        margin: -15px 0 0 0;
+        height: 70vh;
+    }
 }
+

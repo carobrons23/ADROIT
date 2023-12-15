@@ -1389,7 +1389,7 @@
 
 .caja-clientes2 {
     background-color: #FCFF5C;
-    margin: 35px 0 0 0;
+    margin: 35px 0 20px 0;
 }
 
 .cajita-clientes {
@@ -1678,12 +1678,13 @@
         padding-top: 10px;
     }
     .cover {
-        background-image: url(../img/responsive-home.jpeg);
+        background-image: url(../img/responsive-home.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
+        background-position: right;
+        margin: 10% 0 0 0;
         width: 100%;
+        padding: 45px 0;
     }
 
     .text__cover h1 {

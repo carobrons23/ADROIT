@@ -1681,10 +1681,9 @@
         background-image: url(../img/responsive-home.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: right;
-        margin: 10% 0 0 0;
+        background-position: center center;
+        background-attachment: fixed;
         width: 100%;
-        padding: 45px 0;
     }
 
     .text__cover h1 {

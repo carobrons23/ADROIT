@@ -2375,13 +2375,21 @@
         width: 58%;
         height: 4vh;
         font-size: 13px;
-        margin: 0 0 0 34px;
+        margin: -10px 0 0 34px;
     }
     .cards6 button {
         width: 58%;
         height: 4vh;
         font-size: 13px;
-        margin: 70px 0 0 34px;
+        margin: 50px 0 0 34px;
+    }
+    .cards1 p {
+        color: #818181;
+        text-align: center;
+        font-size: 14px;
+        margin: 30px 0 10px 0;
+        padding: 10px;
+        font-family: Lato;
     }
 
     .cards-pack .cards1 {

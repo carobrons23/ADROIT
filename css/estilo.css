@@ -116,17 +116,15 @@
 }
 
 .cover {
-    /*
     background-image: url(../img/fondo-ini.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    width: 100%;
     padding: 180px 0 210px 0;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
-    */
-    width: 100%;
 }
 
 .text__cover h1 {
@@ -1680,6 +1678,11 @@
         padding-top: 10px;
     }
     .cover {
+        background-image: url(../img/responsive-home.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
         width: 100%;
     }
 

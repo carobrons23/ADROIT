@@ -2375,7 +2375,7 @@
         width: 58%;
         height: 4vh;
         font-size: 13px;
-        margin: -10px 0 0 34px;
+        margin: -20px 0 0 34px;
     }
     .cards6 button {
         width: 58%;
@@ -2383,7 +2383,7 @@
         font-size: 13px;
         margin: 50px 0 0 34px;
     }
-    .cards1 p {
+    .cards6 p {
         color: #818181;
         text-align: center;
         font-size: 14px;

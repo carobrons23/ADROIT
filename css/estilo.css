@@ -1059,64 +1059,13 @@
     margin: 0 0 0 80px;
 }
 
-.cards {
+/*card 1*/
+.cards1 {
     background-color: #FCFF5C;
     border-radius: 15px;
     width: 80%;
     height: 35vh;
     margin-bottom: 40px;
-}
-
-.cards h3 {
-    color: #818181;
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0 10px 0;
-    font-family: Lato;
-}
-
-.cards p {
-    color: #818181;
-    text-align: center;
-    font-size: 14px;
-    margin: 10px 0 10px 0;
-    padding: 10px;
-    font-family: Lato;
-}
-
-.cards button {
-    width: 35%;
-    height: 6vh;
-    color: #000;
-    background-color: transparent;
-    font-size: 12px;
-    border-radius: 5px;
-    border: 2px solid #000;
-    margin: 10px 0 0 100px;
-    font-family: Lato;
-}
-
-.cards button:hover {
-    background-color: #818181;
-    border: 2px solid #818181;
-}
-
-.cards button a {
-    font-weight: 600;
-    color: #000;
-    font-family: Lato;
-    font-size: 10px;
-}
-
-.cards button a:hover {
-    color: #fff;
-}
-
-.cards-pack .cards1 {
-    width: 80%;
-    height: 35vh;
-    background-color: #FCFF5C;
-    border-radius: 15px;
 }
 
 .cards1 h3 {
@@ -1131,7 +1080,7 @@
     color: #818181;
     text-align: center;
     font-size: 14px;
-    margin: 30px 0 25px 0;
+    margin: 10px 0 10px 0;
     padding: 10px;
     font-family: Lato;
 }
@@ -1141,10 +1090,11 @@
     height: 6vh;
     color: #000;
     background-color: transparent;
-    font-size: 13px;
+    font-size: 12px;
     border-radius: 5px;
     border: 2px solid #000;
     margin: 10px 0 0 100px;
+    font-family: Lato;
 }
 
 .cards1 button:hover {
@@ -1162,12 +1112,13 @@
 .cards1 button a:hover {
     color: #fff;
 }
-
-.cards-pack .cards2 {
-    width: 80%;
-    height: 35vh;
+/*card 2*/
+.cards2 {
     background-color: #FCFF5C;
     border-radius: 15px;
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 40px;
 }
 
 .cards2 h3 {
@@ -1182,7 +1133,7 @@
     color: #818181;
     text-align: center;
     font-size: 14px;
-    margin: -5px 0 0 0;
+    margin: 10px 0 10px 0;
     padding: 10px;
     font-family: Lato;
 }
@@ -1192,10 +1143,11 @@
     height: 6vh;
     color: #000;
     background-color: transparent;
-    font-size: 13px;
+    font-size: 12px;
     border-radius: 5px;
     border: 2px solid #000;
-    margin: 5px 0 0 100px;
+    margin: 10px 0 0 100px;
+    font-family: Lato;
 }
 
 .cards2 button:hover {
@@ -1212,7 +1164,219 @@
 
 .cards2 button a:hover {
     color: #fff;
+} 
+/*card 3*/
+.cards3 {
+    background-color: #FCFF5C;
+    border-radius: 15px;
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 40px;
 }
+
+.cards3 h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards3 p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards3 button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 10px 0 0 100px;
+    font-family: Lato;
+}
+
+.cards3 button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards3 button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards3 button a:hover {
+    color: #fff;
+} 
+/*card 4*/
+.cards4 {
+    background-color: #FCFF5C;
+    border-radius: 15px;
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 40px;
+}
+
+.cards4 h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards4 p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards4 button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 10px 0 0 100px;
+    font-family: Lato;
+}
+
+.cards4 button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards4 button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards4 button a:hover {
+    color: #fff;
+} 
+/*card 5*/
+.cards5 {
+    background-color: #FCFF5C;
+    border-radius: 15px;
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 40px;
+}
+
+.cards5 h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards5 p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards5 button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 10px 0 0 100px;
+    font-family: Lato;
+}
+
+.cards5 button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards5 button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards5 button a:hover {
+    color: #fff;
+} 
+/*card 6*/
+.cards6 {
+    background-color: #FCFF5C;
+    border-radius: 15px;
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 40px;
+}
+
+.cards6 h3 {
+    color: #818181;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Lato;
+}
+
+.cards6 p {
+    color: #818181;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.cards6 button {
+    width: 35%;
+    height: 6vh;
+    color: #000;
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 10px 0 0 100px;
+    font-family: Lato;
+}
+
+.cards6 button:hover {
+    background-color: #818181;
+    border: 2px solid #818181;
+}
+
+.cards6 button a {
+    font-weight: 600;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+.cards6 button a:hover {
+    color: #fff;
+} 
 
 
 /*PÁGINA ABOUT US*/

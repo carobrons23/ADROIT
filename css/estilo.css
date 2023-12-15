@@ -2383,6 +2383,13 @@
         font-size: 13px;
         margin: 50px 0 0 34px;
     }
+    .cards5 p {
+        color: #818181;
+        text-align: center;
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+        font-family: Lato;
+    }
     .cards6 p {
         color: #818181;
         text-align: center;

@@ -726,7 +726,7 @@
     text-align: unset;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 65px;
+    margin-left: 12%;
     font-family: Lato;
     font-weight: 500;
 }
@@ -2082,7 +2082,7 @@
         text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 35px;
+        margin-left: 12%;
         font-family: Lato;
         font-weight: 500;
     }
@@ -2090,12 +2090,12 @@
     .cajita-services1 img {
         width: 100%;
         height: 25vh;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .cajita-services1 button {
         text-align: center;
-        margin: 0 0 0 30%;
+        margin: 0 0 20px 30%;
         width: 35%;
         font-size: 12px;
         font-weight: 600;
@@ -2116,7 +2116,7 @@
         text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 35px;
+        margin-left: 12%;
         font-family: Lato;
         font-weight: 500;
     }
@@ -2127,7 +2127,7 @@
 
     .cajita-services2 button {
         text-align: center;
-        margin: 0 0 0 30%;
+        margin: 0 0 40px 30%;
         width: 35%;
         font-size: 12px;
         font-weight: 600;
@@ -2151,7 +2151,7 @@
         text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 35px;
+        margin-left: 12%;
         font-family: Lato;
         font-weight: 500;
     }
@@ -2159,12 +2159,12 @@
     .cajita-services3 img {
         width: 100%;
         height: 25vh;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .cajita-services3 button {
         text-align: center;
-        margin: 0 0 0 30%;
+        margin: 0 0 20px 30%;
         width: 35%;
         font-size: 12px;
         font-weight: 600;
@@ -2188,7 +2188,7 @@
         text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 35px;
+        margin-left: 12%;
         font-family: Lato;
         font-weight: 500;
     }
@@ -2199,7 +2199,7 @@
 
     .cajita-services4 button {
         text-align: center;
-        margin: 0 0 0 30%;
+        margin: 0 0 40px 30%;
         width: 35%;
         font-size: 12px;
         font-weight: 600;
@@ -2223,7 +2223,7 @@
         text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 35px;
+        margin-left: 12%;
         font-family: Lato;
         font-weight: 500; 
     }
@@ -2231,12 +2231,12 @@
     .cajita-services5 img {
         width: 100%;
         height: 25vh;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .cajita-services5 button {
         text-align: center;
-        margin: 0 0 0 30%;
+        margin: 0 0 20px 30%;
         width: 35%;
         font-size: 12px;
         font-weight: 600;

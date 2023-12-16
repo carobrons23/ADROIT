@@ -2067,34 +2067,36 @@
         color: #818181;
     }
 
+    .caja-services {
+        display: grid;
+        grid-template-columns: repeat(1, 10fr);
+    }
+
     .cajita-services1 h4 {
-        font-size: 18px;
         text-align: center;
-        font-family: Lato;
-        font-weight: 600;
-        margin-top: 10px;
     }
 
     .cajita-services1 p {
         font-size: 13px;
         width: 76%;
-        text-align: unset;
+        text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 35px;
         font-family: Lato;
         font-weight: 500;
     }
 
     .cajita-services1 img {
         width: 100%;
-        height: 30vh;
+        height: 25vh;
+        object-fit: contain;
     }
 
     .cajita-services1 button {
         text-align: center;
-        margin: 0 0 0 32px;
-        width: 60%;
+        margin: 0 0 0 30%;
+        width: 35%;
         font-size: 12px;
         font-weight: 600;
         height: 26px;
@@ -2105,35 +2107,28 @@
     }
 
     .cajita-services2 h4 {
-        font-size: 18px;
         text-align: center;
-        font-family: Lato;
-        font-weight: 600;
-        margin: 0 0 0 0;
     }
 
     .cajita-services2 p {
         font-size: 13px;
         width: 76%;
-        text-align: unset;
+        text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 35px;
         font-family: Lato;
         font-weight: 500;
     }
 
     .cajita-services2 img {
-        width: 100%;
-        height: 45vh;
-        margin: 20% 0 0 0;
-        object-fit: cover;
+        display: none;
     }
 
     .cajita-services2 button {
         text-align: center;
-        margin: 0 0 10px 32px;
-        width: 60%;
+        margin: 0 0 0 30%;
+        width: 35%;
         font-size: 12px;
         font-weight: 600;
         height: 26px;
@@ -2153,24 +2148,24 @@
     .cajita-services3 p {
         font-size: 13px;
         width: 76%;
-        text-align: unset;
+        text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 35px;
         font-family: Lato;
         font-weight: 500;
     }
 
     .cajita-services3 img {
         width: 100%;
-        height: 35vh;
-        margin-top: 15px;
+        height: 25vh;
+        object-fit: contain;
     }
 
     .cajita-services3 button {
         text-align: center;
-        margin: 0 0 10px 32px;
-        width: 60%;
+        margin: 0 0 0 30%;
+        width: 35%;
         font-size: 12px;
         font-weight: 600;
         height: 26px;
@@ -2190,24 +2185,22 @@
     .cajita-services4 p {
         font-size: 13px;
         width: 76%;
-        text-align: unset;
+        text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 35px;
         font-family: Lato;
         font-weight: 500;
     }
 
     .cajita-services4 img {
-        width: 100%;
-        height: 30vh;
-        margin: 30px 0 0 0;
+        display: none;
     }
 
     .cajita-services4 button {
         text-align: center;
-        margin: 0 0 10px 32px;
-        width: 60%;
+        margin: 0 0 0 30%;
+        width: 35%;
         font-size: 12px;
         font-weight: 600;
         height: 26px;
@@ -2227,24 +2220,24 @@
     .cajita-services5 p {
         font-size: 13px;
         width: 76%;
-        text-align: unset;
+        text-align: justify;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 35px;
         font-family: Lato;
-        font-weight: 500;
+        font-weight: 500; 
     }
 
     .cajita-services5 img {
         width: 100%;
-        height: 30vh;
-        margin-bottom: 40px;
+        height: 25vh;
+        object-fit: contain;
     }
 
     .cajita-services5 button {
         text-align: center;
-        margin: 0 0 10px 32px;
-        width: 60%;
+        margin: 0 0 0 30%;
+        width: 35%;
         font-size: 12px;
         font-weight: 600;
         height: 26px;
@@ -2375,7 +2368,7 @@
         width: 58%;
         height: 4vh;
         font-size: 13px;
-        margin: -20px 0 0 34px;
+        margin: -15px 0 0 34px;
     }
     .cards6 button {
         width: 58%;

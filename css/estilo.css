@@ -1443,7 +1443,7 @@
     font-weight: 600;
 }
 .about p.about-bio {
-    margin: 8px 0 30px 25%;
+    margin: 8px 25% 30px 25%;
     text-align: justify;
     font-size: 15px;
     font-weight: 500;
@@ -2722,7 +2722,7 @@
         display: block;
         width: 100%;
         text-align: center;
-        margin: -16px 0 0 142%;
+        margin: -16px 0 0 125%;
     }
     /*ABOUT*/
     .main-about h1 {

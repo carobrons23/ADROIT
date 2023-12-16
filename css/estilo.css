@@ -1438,6 +1438,11 @@
     font-family: Lato;
     text-align: center;
 }
+.about-bio {
+    font-family: cursive;
+    margin: 8px 0 5px 0;
+    text-align: justify;
+}
 
 .about-story {
     display: block;

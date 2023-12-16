@@ -1874,7 +1874,7 @@
         padding-top: 10px;
     }
     .cover {
-        background-image: url(../img/responsive-home.jpg);
+        background-image: url(../img/responsive-home.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
@@ -2722,7 +2722,7 @@
         display: block;
         width: 100%;
         text-align: center;
-        margin: -16px 0 0 125%;
+        margin: -16px 0 0 132%;
     }
     /*ABOUT*/
     .main-about h1 {

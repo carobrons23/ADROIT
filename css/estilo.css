@@ -805,8 +805,8 @@
 
 .cajita-services5 img {
     width: 100%;
-    height: 30vh;
-    margin-bottom: 40px;
+    height: 45vh;
+    margin-top: 20px;
 }
 
 .cajita-services5 h4 {
@@ -1546,7 +1546,7 @@
 }
 .clientes10 img {
     width: 75%;
-    margin: -10px 0 0 -40px;
+    margin: -10px 0 0 -60px;
 }
 .clientes11 img {
     width: 50%;
@@ -2252,8 +2252,8 @@
 
     .cajita-services5 img {
         width: 100%;
-        height: 45vh;
-        margin-top: 20px;
+        height: 25vh;
+        object-fit: cover;
     }
 
     .cajita-services5 button {
@@ -2522,15 +2522,28 @@
 
     .clientes9 img {
         width: 90%;
-        margin: -2px 0 0 -10px;
+        margin: -10px 0 0 -12px;
     }
+    .clientes10 img {
+        width: 95%;
+        margin: -10px 0 0 -40px;
+    }
+    .clientes11 img {
+        width: 60%;
+        margin: 0 0 0 10px;
+    }
+    .clientes12 img {
+        width: 50%;
+        margin: 5px 0 0 11px;
+    }
+
     .caja-clientes2 {
         background-color: #FCFF5C;
         margin: 35px 0 0 0;
     }
     .main-clients-port {
     background-color: #818181;
-    height: 135vh;
+    height: 110vh;
     margin-bottom: 20%;
 }
 
@@ -2615,9 +2628,18 @@
 
 
     .titulo-beach h3 {
-        font-size: 20px;
+        font-size: 25px;
         margin: 30px 0 70px 20px;
         font-family: Lato;
+    }
+    .titulo-beach hr {
+        text-align: center;
+        background-color: #818181;
+        width: 100%;
+        padding-bottom: 3px;
+        margin: -82px 0 30px 0;
+        height: 4vh;
+        border: transparent;
     }
 
     .cajas-beach {

@@ -1436,12 +1436,15 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 8px 0 5px 0;
     font-family: Lato;
+    font-size: 16px;
     text-align: center;
+    font-weight: 600;
 }
 .about p.about-bio {
-    font-family: cursive;
-    margin: 8px 0 5px 0;
+    margin: 8px 0 30px 25%;
     text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .about-story {
@@ -2733,24 +2736,31 @@
     }
     .caja-about {
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 4fr);
         margin: -35px 0 0 25px;
         gap: 25px;
     }
     .about {
-        margin: auto;
+        margin: 0 auto;
         padding: 0px 20px;
         display: grid;
     }
     .about img {
-        width: 70%;
+        width: 50%;
         border: 10px;
-        margin: 0 0 10px 0;
+        margin: 0 0 10px 70px;
         border-radius: 90px;
     }
     .about p {
         margin: 0 0 9px -45px;
         text-align: center;
+    }
+    .about p.about-bio {
+        margin: 8px 0 30px 20%;
+        text-align: justify;
+        font-size: 15px;
+        width: 50%;
+        font-weight: 500;
     }
     .about-story {
         display: block;

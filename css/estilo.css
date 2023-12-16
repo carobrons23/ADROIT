@@ -1418,12 +1418,12 @@
 
 .caja-about {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 4fr);
     text-align: center;
 }
 
 .about img {
-    width: 60%;
+    width: 20%;
     border: 10px;
     border-radius: 65%;
 }
@@ -1438,7 +1438,7 @@
     font-family: Lato;
     text-align: center;
 }
-.about-bio {
+.about p.about-bio {
     font-family: cursive;
     margin: 8px 0 5px 0;
     text-align: justify;

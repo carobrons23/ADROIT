@@ -126,6 +126,9 @@
     display: grid;
     grid-template-columns: repeat(1, 2fr);
 }
+.img-home{
+    display: none;
+}
 
 .text__cover h1 {
     width: 50%;

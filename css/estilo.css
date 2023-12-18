@@ -1885,10 +1885,13 @@
     .cover {
         margin: 10% 0 0 0;
         width: 100%;
-        padding: 45px 0;
+        background-color: #FCFF5C;
+        padding: 55px 0 0 0;
     }
-    .img-home{
-        width: 30%;
+    .text__cover .img-home{
+        width: 53vw;
+        margin: -170px 0 0 210px;
+        display: flex;
     }
     .text__cover h1 {
         font-size: 25px;
@@ -2370,7 +2373,6 @@
     }
 
     .cards {
-        font-size: 18px;
         background-color: #FCFF5C;
         border-radius: 15px;
         border: 7px solid #818181;
@@ -2379,7 +2381,7 @@
         margin: 0 auto;
     }
     .cards1 h3 {
-        font-size: 18px;
+        font-size: 17px;
         color: #818181;
         text-align: center;
         font-weight: 600;
@@ -2387,7 +2389,7 @@
         font-family: Lato;
     }
     .cards2 h3 {
-        font-size: 18px;
+        font-size: 17px;
         color: #818181;
         text-align: center;
         font-weight: 600;
@@ -2395,7 +2397,7 @@
         font-family: Lato;
     }
     .cards3 h3 {
-        font-size: 18px;
+        font-size: 17px;
         color: #818181;
         text-align: center;
         font-weight: 600;
@@ -2403,7 +2405,7 @@
         font-family: Lato;
     }
     .cards4 h3 {
-        font-size: 18px;
+        font-size: 17px;
         color: #818181;
         text-align: center;
         font-weight: 600;
@@ -2411,7 +2413,7 @@
         font-family: Lato;
     }
     .cards5 h3 {
-        font-size: 18px;
+        font-size: 17px;
         color: #818181;
         text-align: center;
         font-weight: 600;
@@ -2419,7 +2421,7 @@
         font-family: Lato;
     }
     .cards6 h3 {
-        font-size: 18px;
+        font-size: 17px;
         color: #818181;
         text-align: center;
         font-weight: 600;
@@ -2494,7 +2496,7 @@
         border-radius: 15px;
         border: 7px solid #818181;
         width: 100%;
-        height: 34vh;
+        height: 28vh;
         margin: 0 auto;
     }
     .cards-pack .cards3 {
@@ -2502,7 +2504,7 @@
         border-radius: 15px;
         border: 7px solid #818181;
         width: 100%;
-        height: 35vh;
+        height: 28vh;
         margin: 0 auto;
     }
     .cards-pack .cards4 {
@@ -2510,7 +2512,7 @@
         border-radius: 15px;
         border: 7px solid #818181;
         width: 100%;
-        height: 35vh;
+        height: 28vh;
         margin: 0 auto;
     }
     .cards-pack .cards5 {
@@ -2518,7 +2520,7 @@
         border-radius: 15px;
         border: 7px solid #818181;
         width: 100%;
-        height: 35vh;
+        height: 28vh;
         margin: 0 auto;
     }
     .cards-pack .cards6 {
@@ -2526,7 +2528,7 @@
         border-radius: 15px;
         border: 7px solid #818181;
         width: 100%;
-        height: 35vh;
+        height: 28vh;
         margin: 0 auto;
     }
 

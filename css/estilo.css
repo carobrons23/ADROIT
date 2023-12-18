@@ -1893,6 +1893,12 @@
         margin: -170px 0 0 210px;
         display: flex;
     }
+    .img-home {
+        display: flex;
+    }
+    .img-home img{
+        display: flex;
+    }
     .text__cover h1 {
         font-size: 25px;
         width: 65%;

@@ -1887,10 +1887,11 @@
         width: 100%;
         background-color: #FCFF5C;
         padding: 55px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .text__cover .img-home img{
-        width: 53vw;
-        margin: -170px 0 0 210px;
+        width: 30vw;
         display: flex;
     }
     .img-home {
